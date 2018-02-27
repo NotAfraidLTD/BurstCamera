@@ -1,7 +1,8 @@
 # BurstCamera
 实现连续拍多张照片,可重新替换旧照,预览已拍好的照片,使照片采集更便捷!
 
-![Alt text](https://github.com/NotAfraidLTD/BurstCamera/raw/master/Screenshots/IMG_1027.jpg)
+效果图
+![Alt text](https://github.com/NotAfraidLTD/BurstCamera/raw/master/BurstCamera/Screenshots/IMG_1027.jpg)
 
 burstCamer是一个可多次连拍的相机界面。你可以一次采集多张照片，让你在图片采集时变得简单快捷。引用AVFoundation框架的实现相机的基本功能，在原有的相机拍照功能上添加了轮廓视图提示和拍照要求文案描述。
 
