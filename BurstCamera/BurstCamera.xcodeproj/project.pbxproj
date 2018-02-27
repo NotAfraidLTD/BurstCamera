@@ -10,10 +10,19 @@
 		C165B2AA20454F0E001390A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C165B2A920454F0E001390A2 /* AppDelegate.swift */; };
 		C165B2AC20454F0E001390A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C165B2AB20454F0E001390A2 /* ViewController.swift */; };
 		C165B2AF20454F0E001390A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C165B2AD20454F0E001390A2 /* Main.storyboard */; };
-		C165B2B120454F0E001390A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C165B2B020454F0E001390A2 /* Assets.xcassets */; };
 		C165B2B420454F0E001390A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C165B2B220454F0E001390A2 /* LaunchScreen.storyboard */; };
 		C165B2BF20454F0E001390A2 /* BurstCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C165B2BE20454F0E001390A2 /* BurstCameraTests.swift */; };
 		C165B2CA20454F0E001390A2 /* BurstCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C165B2C920454F0E001390A2 /* BurstCameraUITests.swift */; };
+		C165B2E020455655001390A2 /* LTDPreviewImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C165B2D820455655001390A2 /* LTDPreviewImageCell.swift */; };
+		C165B2E120455655001390A2 /* LTDPreviewImageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C165B2D920455655001390A2 /* LTDPreviewImageCollectionView.swift */; };
+		C165B2E220455655001390A2 /* LTDPreviewImageDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C165B2DA20455655001390A2 /* LTDPreviewImageDataSource.swift */; };
+		C165B2E320455655001390A2 /* InnerCameraCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C165B2DC20455655001390A2 /* InnerCameraCell.swift */; };
+		C165B2E420455655001390A2 /* InnerCameraCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C165B2DD20455655001390A2 /* InnerCameraCell.xib */; };
+		C165B2E520455655001390A2 /* InnerCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C165B2DE20455655001390A2 /* InnerCameraViewController.swift */; };
+		C165B2E620455655001390A2 /* RotateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C165B2DF20455655001390A2 /* RotateButton.swift */; };
+		C165B2E720455B04001390A2 /* Pods_BurstCamera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C165B2E820455B04001390A2 /* Pods_BurstCamera.framework */; };
+		C165B2EC20455D5B001390A2 /* LTDUIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C165B2EB20455D5B001390A2 /* LTDUIConfig.swift */; };
+		C165B2EE2045624A001390A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C165B2ED2045624A001390A2 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0341A37ED0C562E8B41658FF /* Pods-BurstCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurstCamera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BurstCamera/Pods-BurstCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		04793C51148A5C95B837C935 /* Pods-BurstCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurstCamera.release.xcconfig"; path = "Pods/Target Support Files/Pods-BurstCamera/Pods-BurstCamera.release.xcconfig"; sourceTree = "<group>"; };
 		C165B2A620454F0E001390A2 /* BurstCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurstCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C165B2A920454F0E001390A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C165B2AB20454F0E001390A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C165B2AE20454F0E001390A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C165B2B020454F0E001390A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C165B2B320454F0E001390A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C165B2B520454F0E001390A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C165B2BA20454F0E001390A2 /* BurstCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurstCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +57,17 @@
 		C165B2C520454F0E001390A2 /* BurstCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurstCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C165B2C920454F0E001390A2 /* BurstCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurstCameraUITests.swift; sourceTree = "<group>"; };
 		C165B2CB20454F0E001390A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C165B2D820455655001390A2 /* LTDPreviewImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTDPreviewImageCell.swift; sourceTree = "<group>"; };
+		C165B2D920455655001390A2 /* LTDPreviewImageCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTDPreviewImageCollectionView.swift; sourceTree = "<group>"; };
+		C165B2DA20455655001390A2 /* LTDPreviewImageDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTDPreviewImageDataSource.swift; sourceTree = "<group>"; };
+		C165B2DC20455655001390A2 /* InnerCameraCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnerCameraCell.swift; sourceTree = "<group>"; };
+		C165B2DD20455655001390A2 /* InnerCameraCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InnerCameraCell.xib; sourceTree = "<group>"; };
+		C165B2DE20455655001390A2 /* InnerCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnerCameraViewController.swift; sourceTree = "<group>"; };
+		C165B2DF20455655001390A2 /* RotateButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotateButton.swift; sourceTree = "<group>"; };
+		C165B2E820455B04001390A2 /* Pods_BurstCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_BurstCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C165B2EB20455D5B001390A2 /* LTDUIConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTDUIConfig.swift; sourceTree = "<group>"; };
+		C165B2ED2045624A001390A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E61303600BE60F44319D444E /* Pods_BurstCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BurstCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C165B2E720455B04001390A2 /* Pods_BurstCamera.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +96,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7370529C98C32BEDD6E8CE73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0341A37ED0C562E8B41658FF /* Pods-BurstCamera.debug.xcconfig */,
+				04793C51148A5C95B837C935 /* Pods-BurstCamera.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		98C53B7C25C876267F8C4C11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C165B2E820455B04001390A2 /* Pods_BurstCamera.framework */,
+				E61303600BE60F44319D444E /* Pods_BurstCamera.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C165B29D20454F0E001390A2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				C165B2BD20454F0E001390A2 /* BurstCameraTests */,
 				C165B2C820454F0E001390A2 /* BurstCameraUITests */,
 				C165B2A720454F0E001390A2 /* Products */,
+				7370529C98C32BEDD6E8CE73 /* Pods */,
+				98C53B7C25C876267F8C4C11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,10 +139,13 @@
 		C165B2A820454F0E001390A2 /* BurstCamera */ = {
 			isa = PBXGroup;
 			children = (
+				C165B2DB20455655001390A2 /* InnerCamera */,
+				C165B2D720455655001390A2 /* PreviewImage */,
 				C165B2A920454F0E001390A2 /* AppDelegate.swift */,
 				C165B2AB20454F0E001390A2 /* ViewController.swift */,
+				C165B2EB20455D5B001390A2 /* LTDUIConfig.swift */,
 				C165B2AD20454F0E001390A2 /* Main.storyboard */,
-				C165B2B020454F0E001390A2 /* Assets.xcassets */,
+				C165B2ED2045624A001390A2 /* Assets.xcassets */,
 				C165B2B220454F0E001390A2 /* LaunchScreen.storyboard */,
 				C165B2B520454F0E001390A2 /* Info.plist */,
 			);
@@ -125,6 +170,27 @@
 			path = BurstCameraUITests;
 			sourceTree = "<group>";
 		};
+		C165B2D720455655001390A2 /* PreviewImage */ = {
+			isa = PBXGroup;
+			children = (
+				C165B2D820455655001390A2 /* LTDPreviewImageCell.swift */,
+				C165B2D920455655001390A2 /* LTDPreviewImageCollectionView.swift */,
+				C165B2DA20455655001390A2 /* LTDPreviewImageDataSource.swift */,
+			);
+			path = PreviewImage;
+			sourceTree = "<group>";
+		};
+		C165B2DB20455655001390A2 /* InnerCamera */ = {
+			isa = PBXGroup;
+			children = (
+				C165B2DC20455655001390A2 /* InnerCameraCell.swift */,
+				C165B2DD20455655001390A2 /* InnerCameraCell.xib */,
+				C165B2DE20455655001390A2 /* InnerCameraViewController.swift */,
+				C165B2DF20455655001390A2 /* RotateButton.swift */,
+			);
+			path = InnerCamera;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C165B2CE20454F0E001390A2 /* Build configuration list for PBXNativeTarget "BurstCamera" */;
 			buildPhases = (
+				C3D928D8BDFD50F146EEE709 /* [CP] Check Pods Manifest.lock */,
 				C165B2A220454F0E001390A2 /* Sources */,
 				C165B2A320454F0E001390A2 /* Frameworks */,
 				C165B2A420454F0E001390A2 /* Resources */,
+				B46F2B4F1B2B2747763F0CC5 /* [CP] Embed Pods Frameworks */,
+				400DEC5DA3C7647539103EB1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,8 +302,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C165B2B420454F0E001390A2 /* LaunchScreen.storyboard in Resources */,
-				C165B2B120454F0E001390A2 /* Assets.xcassets in Resources */,
+				C165B2E420455655001390A2 /* InnerCameraCell.xib in Resources */,
 				C165B2AF20454F0E001390A2 /* Main.storyboard in Resources */,
+				C165B2EE2045624A001390A2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +324,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		400DEC5DA3C7647539103EB1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BurstCamera/Pods-BurstCamera-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B46F2B4F1B2B2747763F0CC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BurstCamera/Pods-BurstCamera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3D928D8BDFD50F146EEE709 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C165B2A220454F0E001390A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C165B2EC20455D5B001390A2 /* LTDUIConfig.swift in Sources */,
+				C165B2E620455655001390A2 /* RotateButton.swift in Sources */,
 				C165B2AC20454F0E001390A2 /* ViewController.swift in Sources */,
+				C165B2E520455655001390A2 /* InnerCameraViewController.swift in Sources */,
 				C165B2AA20454F0E001390A2 /* AppDelegate.swift in Sources */,
+				C165B2E120455655001390A2 /* LTDPreviewImageCollectionView.swift in Sources */,
+				C165B2E220455655001390A2 /* LTDPreviewImageDataSource.swift in Sources */,
+				C165B2E020455655001390A2 /* LTDPreviewImageCell.swift in Sources */,
+				C165B2E320455655001390A2 /* InnerCameraCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,30 +549,34 @@
 		};
 		C165B2CF20454F0E001390A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0341A37ED0C562E8B41658FF /* Pods-BurstCamera.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SU4YQQ74P3;
 				INFOPLIST_FILE = BurstCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yilutong.app.camera.BurstCamera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		C165B2D020454F0E001390A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04793C51148A5C95B837C935 /* Pods-BurstCamera.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SU4YQQ74P3;
 				INFOPLIST_FILE = BurstCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yilutong.app.camera.BurstCamera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="InnerCameraCell" reuseIdentifier="InnerCameraCell" id="gTV-IL-0wX" customClass="InnerCameraCell" customModule="YLTService" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="148" height="130"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="148" height="130"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gAV-Du-Tqd">
+                        <rect key="frame" x="0.0" y="0.0" width="148" height="130"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdu-32-g37">
+                        <rect key="frame" x="1.5" y="45.5" width="145" height="40"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="uUj-Hp-eKr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="gAV-Du-Tqd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="8HH-KN-gDV"/>
+                <constraint firstItem="cdu-32-g37" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="Hjr-p0-wUj"/>
+                <constraint firstAttribute="trailing" secondItem="cdu-32-g37" secondAttribute="trailing" constant="1.5" id="Khf-tV-blf"/>
+                <constraint firstAttribute="bottom" secondItem="gAV-Du-Tqd" secondAttribute="bottom" id="ZzZ-0W-wHc"/>
+                <constraint firstItem="cdu-32-g37" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="1.5" id="hhd-LG-aOS"/>
+                <constraint firstItem="gAV-Du-Tqd" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="rhb-OZ-lU1"/>
+                <constraint firstAttribute="trailing" secondItem="gAV-Du-Tqd" secondAttribute="trailing" id="zJW-6q-ZrS"/>
+            </constraints>
+            <size key="customSize" width="148" height="130"/>
+            <connections>
+                <outlet property="imageView" destination="gAV-Du-Tqd" id="tXD-V4-NCJ"/>
+                <outlet property="titleLabel" destination="cdu-32-g37" id="5cf-G7-5tv"/>
+            </connections>
+            <point key="canvasLocation" x="-49" y="-21"/>
+        </collectionViewCell>
+    </objects>
+</document>

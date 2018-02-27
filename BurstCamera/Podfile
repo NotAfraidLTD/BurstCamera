@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/aliyun/aliyun-specs.git'
+
+platform :ios, ‘8.0’
+use_frameworks!
+
+target 'BurstCamera' do 
+
+ pod 'Kingfisher', '~> 3.8.0'#图片加载
+ pod 'SnapKit', '~> 3.2.0'
+
+
+end   
